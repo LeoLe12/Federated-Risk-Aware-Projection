@@ -13,3 +13,6 @@ dependencies = [
     "bitsandbytes",
     "flwr"
 ]
+
+[tool.setuptools.packages.find]
+include = ["rap_fl*"]
