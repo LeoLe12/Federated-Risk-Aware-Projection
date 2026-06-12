@@ -1,4 +1,5 @@
 # 🛡️ Federated Risk-Aware Projection (RAP-FL)
+
 RAP-FL is a Federated Learning (FL) library/wrapper designed to implement **Risk-Aware Projection** for Open-Weight Large Language Models (LLMs). It seamlessly bridges Hugging Face's `Trainer` (client-side) and the Flower (`flwr`) framework (server-side) to allow decentralized training of models while separating utility-maximizing updates from risky/hazardous capability updates.
 ---
 ## 💡 Abstract
