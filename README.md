@@ -40,7 +40,7 @@ print("RAP-FL library loaded successfully.")
 
 ## 🚀 Quick Start / Usage Example
 
-The complete working example is available in the [Rap-Wrapper-Notebook-Example.ipynb](.rap_fl/Rap-Wrapper-Notebook-Example.ipynb) notebook. The following walkthrough extracts its key components.
+The complete working example is available in the [Rap-Wrapper-Notebook-Example.ipynb](rap_fl/Rap-Wrapper-Notebook-Example.ipynb) notebook. The following walkthrough extracts its key components.
 
 ### 1. 🔧 Setup Model & Tokenizer
 
