@@ -241,14 +241,38 @@ The server-side projection math (`peft_inner_product`, `project_onto`, `final_ag
 ## 📂 Project Structure
 
 ```text
-rap_fl/
-├── client/
+rap-fl-project/
+│
+├── rap_fl/                                   # Core installable library
 │   ├── __init__.py
-│   └── trainer.py          # RAPTrainer & RAPOptimizer subclasses
-└── server/
-    ├── __init__.py
-    ├── strategy.py         # RAPStrategy (Flower FedAvg subclass)
-    └── utils.py            # NumPy-PyTorch bridges & projection math
+│   ├── client/
+│   │   ├── __init__.py
+│   │   └── trainer.py                        # RAPTrainer & RAPOptimizer
+│   └── server/
+│       ├── __init__.py
+│       ├── strategy.py                       # RAPStrategy (Flower FedAvg subclass)
+│       └── utils.py                          # NumPy-PyTorch bridges & projection math
+│
+├── Rap-Wrapper-Notebook-Example.ipynb        # Full working example (Kaggle, dual GPU)
+├── RAPWRAPPER.ipynb                          # Alternative example (Google Colab)
+│
+├── code/                                     # Original research scripts (reference)
+│   ├── risk-aware-proj.ipynb                 # Original FL experiment notebook
+│   ├── Client/
+│   │   └── Client_Training_singlepass.py     # Raw single-pass training script
+│   └── Server/
+│       └── Projection Server Side.py         # Raw server projection script
+│
+├── reference/
+│   └── Federated Risk-Aware Projection.pdf   # Paper describing the RAP-FL algorithm
+│
+├── scratch/                                  # Internal verification tests
+│   ├── test_rap_trainer.py                   # Unit test for RAPTrainer
+│   └── test_rap_strategy.py                  # Unit test for RAPStrategy
+│
+├── pyproject.toml                            # Package build configuration
+├── requirements.txt                          # Core dependencies
+└── README.md
 ```
 
 ---
