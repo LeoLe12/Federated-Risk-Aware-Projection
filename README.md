@@ -264,3 +264,9 @@ rap_fl/
 | `bitsandbytes` | ≥ 0.43 | 4-bit quantization & `paged_adamw_8bit` |
 | `datasets` | ≥ 2.0 | Dataset loading with `risk_score` column |
 | `numpy` | ≥ 1.26 | NumPy-PyTorch bridge for parameter serialization |
+
+## 👨‍💻 Author
+
+**LeoLe12**
+* GitHub: [@LeoLe12](https://github.com/LeoLe12)
+* Project Repository: [Federated-Risk-Aware-Projection](https://github.com/LeoLe12/Federated-Risk-Aware-Projection)
