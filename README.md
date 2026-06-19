@@ -294,3 +294,10 @@ rap-fl-project/
 **LeoLe12**
 * GitHub: [@LeoLe12](https://github.com/LeoLe12)
 * Project Repository: [Federated-Risk-Aware-Projection](https://github.com/LeoLe12/Federated-Risk-Aware-Projection)
+
+---
+
+## Acknowledgements
+
+* **[Mattia Sabella](https://github.com/Ma7i5ab3)**: For the foundational research and concepts detailed in their document **[PDF](./reference/nome_del_file_esatto.pdf)**. Their theoretical framework provided crucial insights into the risk-aware methodology implemented in this library.
+* **[Kyle1668](https://huggingface.co/Kyle1668)**: For providing the pre-trained threat classifiers used to generate the sample-level `risk_score` metric.
